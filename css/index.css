@@ -168,6 +168,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.top {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.image {
+  padding: 40%;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: dashed lightgray 3px ;
+}
+.h2 p {
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  border-bottom: dashed lightgray 3px ;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
